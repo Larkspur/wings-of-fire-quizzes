@@ -1,0 +1,103 @@
+body{
+  background-color:#d2f1f2;
+}
+.title{
+  color:#f47302;
+  font-family: lucida bright;
+  text-align: center;
+  font-size: 48px;
+  align-content: center;
+  display: block;
+  margin: 50px;
+}
+#title-arrow{
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+a{
+  text-decoration: none;
+}
+.hidden{
+  display: none;
+}
+#question-num, #questions-correct, #scorebar{
+  border-collapse: collapse;
+  border: darkgray 3px solid;
+  padding: 20px;
+  text-align: center;
+  font-family: candara;
+}
+#question-num, #questions-correct{
+  width: 50%;
+}
+#scorebar{
+  width: 100%;
+  margin-top: 40px;
+}
+#quiz-top-balloon{
+  height: 100px;
+}
+.question-text{
+  font-family: avant garde, century gothic, calibri;
+  font-size: 24px;
+}
+.question-choice-list li{
+  display: inline-block;
+  list-style-type: none;
+}
+.question-choice{
+  font-family: candara;
+  border: #f47302 2px solid;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 7px;
+  background-color: white;
+  transition: 0.3s;
+  width: 225px;
+  height: 50px;
+}
+.valid-q-choice:hover{
+  color: white;
+  background-color: #f47302;
+  border-color: black;
+}
+.correct-ans{
+  color: white;
+  background-color: #a3db3b;
+  border-color: white;
+}
+.wrong-ans{
+  color: white;
+  background-color: red;
+  border-color: white;
+}
+.score-text{
+  font-family: rockwell, palatino, lucida grande;
+  font-size: 48px;
+  text-align: center;
+}
+#calcul-percent{
+  color: #f47302;
+  background-color: white;
+  border: #f47302 3px solid;
+  border-radius: 3px;
+  font-family: candara;
+  font-size: 18px;
+  width: 125px;
+  transition: 0.3s;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+#calcul-percent:hover{
+  color: white;
+  background-color: #f47302;
+  border-color: white;
+}
+#calcul-load-text{
+  font-size: 40px;
+  font-style: italic;
+}
+.message{
+  font-size: 36px;
+}
