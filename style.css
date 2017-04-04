@@ -1,11 +1,15 @@
 body{
   background-color: #d2f1f2;
 }
+#top-nav-bar{
+  width: 100%;
+  background-color: white;
+  border-bottom: black 3px solid;
+  height: 50px;
+}
 #top-nav-bar li{
   display: inline;
   list-style-type: none;
-  background-color: white;
-  border-bottom: black 3px solid;
 }
 #top-bar-menu-icon{
   width: 50px;
@@ -22,6 +26,7 @@ body{
 }
 #spoiler-alert-img{
   width: 50px;
+  vertical-align: middle;
 }
 #spoiler-alert-text{
   font-size: 20px;
